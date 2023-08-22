@@ -49,10 +49,20 @@ The extension will have a simple popup with two buttons:
 
 While processing, the button will change to "Processing..." and be disabled.
 
-### Documentation
+### Project Status
 
-- User guide: Instructions for installing, configuring, and using the extension
-- Technical documentation: Overview of architecture, sequence diagrams, etc.
+The extension is currently in the testing and prototype phase. Key tasks completed:
+
+- Initial Chrome extension scaffolding and manifest setup
+- Proof of concept to parse Excel sheet and validate data on sample page 
+- Mockups for basic UI flow and popup
+
+Next steps are to:
+
+- Develop out full functionality based on requirements
+- Conduct internal testing across browsers
+- Create documentation and guides
+- Release a beta version for pilot users
 
 ### Future Enhancements
 
