@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Amazon CVT",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "https://www.amazon.co.uk/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["xlsx.full.min.js"]
+    }
+  ]
+}
