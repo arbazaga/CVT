@@ -1,13 +1,8 @@
-# CVT
-Catalog Verification Tool for Amazon employees, vendors and sellers to verify the presence of their attributes on Amazon's product detail pages.
-
-Here is a draft PRD doc for the Excel-based Amazon product data validation Chrome extension:
-
-## Product Requirements Document
+# Product Requirements Document
 
 ### Overview
 
-This document details the requirements for an Excel-based Chrome extension that allows Amazon employees, vendors, and sellers to validate product data on Amazon listing pages. 
+This document details the requirements for an Excel-based Chrome extension that allows Amazon employees, vendors, and sellers to validate product data on Amazon detail pages. 
 
 ### Goals
 
@@ -62,5 +57,5 @@ While processing, the button will change to "Processing..." and be disabled.
 ### Future Enhancements
 
 - Support for CSV input files
-- Integrate with Amazon Seller Central to pull ASIN list and expected values
-- Expand to other data sources like Walmart, Target, etc.
+- Integration with Amazon Seller Central, Vendor Central to pull ASIN list and expected values
+- Expansion to other data sources like Walmart, Target, etc.
