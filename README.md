@@ -2,7 +2,7 @@
 
 ### Overview
 
-This document details the requirements for CVT: Catalog Verification Tool which is an Excel-based Chrome extension that allows Amazon employees, vendors, and sellers to validate product data on Amazon detail pages. 
+This document details the requirements for CVT: Catalog Validation Tool which is an Excel-based Chrome extension that allows Amazon employees, vendors, and sellers to validate product data on Amazon detail pages. 
 
 ### Goals
 
